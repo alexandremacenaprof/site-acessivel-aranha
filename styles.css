@@ -26,11 +26,12 @@ section {
 .nav-link {
     color: #CB6D43;
     font-weight: 600;
+    font-size: 2rem;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo-verde-textura-3000-2000.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -39,6 +40,7 @@ section {
     height: 606px;
     padding: 40px;
     margin: 0 auto;
+    font-size: large;
 }
 
 /* posicionamento para a imagem à direita */
@@ -80,7 +82,7 @@ section {
     margin-top: 3rem;
     margin-bottom: 3rem;
     background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+        url('img/flor-esquerda.jpg') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -108,12 +110,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 180px 180px;
+    background: url('img/flor-direita-300-460.png') bottom right no-repeat;
+    /* background-size: 180px 180px; */
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo-de-papel-3000-2000.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
